@@ -18,8 +18,8 @@ body {
 }
 
 .outer h1 {
-    display: flex;
-    padding-left: 12vh;
+    display: inline;
+    padding: 0% 13%;
     vertical-align: middle;
 }
 
@@ -29,5 +29,11 @@ body {
     color: red;
     position: relative;
     left: 18%;
-    margin-top: 40px;
+    right: 20%;
+}
+
+.give {
+    width: 720px;
+    height: 1280px;
+    background-color: red;
 }
