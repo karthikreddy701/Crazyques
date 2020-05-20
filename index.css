@@ -17,7 +17,7 @@ body {
 
 .top_bar p {
     font-family: lemonada;
-    font-size: 4em;
+    font-size: 2.2em;
     display: inline-block;
     position: absolute;
     top: 50%;
@@ -41,7 +41,7 @@ body {
 }
 
 .inner h1 {
-    font-size: 4em;
+    font-size: 3em;
     font-family: lemonada;
     display: inline-block;
     color: #ffffff;
@@ -52,7 +52,7 @@ body {
 }
 
 .input_span {
-    padding-top: 4em;
+    padding-top: 10rem;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -61,10 +61,10 @@ body {
 
 .input1 {
     width: 80vw;
-    height: 5vh;
+    height: 2em;
     border-radius: 10vh;
     padding-left: 3vh;
-    font-size: 3vh;
+    font-size: 2.5em;
 }
 
 
