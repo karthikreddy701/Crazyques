@@ -11,13 +11,13 @@ body {
 .top_bar {
     width: 100vw;
     height: 9vh;
-    background-color: red;
+    background: linear-gradient(172deg, #8ccbbe, #3797a4, #8df3d2);
     position: relative;
 }
 
 .top_bar p {
     font-family: lemonada;
-    font-size: 2.8vh;
+    font-size: 4em;
     display: inline-block;
     position: absolute;
     top: 50%;
@@ -41,21 +41,51 @@ body {
 }
 
 .inner h1 {
-    font-size: 4vh;
+    font-size: 4em;
     font-family: lemonada;
     display: inline-block;
+    color: #ffffff;
     position: relative;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.inner input {
+.input_span {
+    padding-top: 4em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input1 {
     width: 80vw;
     height: 5vh;
-    display: inline-block;
+    border-radius: 10vh;
+    padding-left: 3vh;
+    font-size: 3vh;
+}
+
+
+/*display: inline-block;
+    font-size: 3em;
+    border-radius: 999em;
+    padding-left: 1em;
     position: relative;
     top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.input_span {
+    position: relative;
+    background: linear-gradient(28deg, #8ccbbe, #3797a4);
+    display: inline-block;
+    border-radius: 999em;
+}
+
+:focus+span {
+    opacity: 1;
+    transform: scale(1);
+}*/
