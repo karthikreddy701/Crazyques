@@ -8,8 +8,54 @@ body {
     background: #363636;
 }
 
+.top_bar {
+    width: 100vw;
+    height: 9vh;
+    background-color: red;
+    position: relative;
+}
+
+.top_bar p {
+    font-family: lemonada;
+    font-size: 2.8vh;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .outer {
     width: 100vw;
     height: 100vh;
-    background-color: skyblue;
+    position: relative;
+}
+
+.inner {
+    width: 80vw;
+    height: 60vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inner h1 {
+    font-size: 4vh;
+    font-family: lemonada;
+    display: inline-block;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inner input {
+    width: 80vw;
+    height: 5vh;
+    display: inline-block;
+    position: relative;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
