@@ -58,32 +58,33 @@ body {
 }
 
 .input1 {
-    width: 80vw;
+    width: 70vw;
     height: 40px;
     border-radius: 10vh;
     padding-left: 3vh;
     font-size: 30px;
 }
 
-
-/*display: inline-block;
-    font-size: 3em;
-    border-radius: 999em;
-    padding-left: 1em;
-    position: relative;
-    top: 42%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+@media screen and (min-width: 1024px) {
+    .top_bar p {
+        font-size: 27px;
+        display: inline;
+        line-height: 20px;
+    }
+    .inner h1 {
+        font-size: 40px;
+        display: inline-block;
+        color: #ffffff;
+        position: relative;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .input1 {
+        width: 50vw;
+        height: 50px;
+        border-radius: 10vh;
+        padding-left: 3vh;
+        font-size: 32px;
+    }
 }
-
-.input_span {
-    position: relative;
-    background: linear-gradient(28deg, #8ccbbe, #3797a4);
-    display: inline-block;
-    border-radius: 999em;
-}
-
-:focus+span {
-    opacity: 1;
-    transform: scale(1);
-}*/
