@@ -13,18 +13,15 @@ body {
     width: 100vw;
     height: 9vh;
     background: linear-gradient(172deg, #8ccbbe, #3797a4, #8df3d2);
-    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .top_bar p {
-    width: 60vw;
     font-size: 20px;
     display: inline;
     line-height: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .outer {
@@ -47,7 +44,7 @@ body {
     display: inline-block;
     color: #ffffff;
     position: relative;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -56,13 +53,13 @@ body {
     padding-top: 85px;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 45%;
     transform: translate(-50%, -50%);
 }
 
 .input1 {
     width: 80vw;
-    height: 46px;
+    height: 40px;
     border-radius: 10vh;
     padding-left: 3vh;
     font-size: 42px;
