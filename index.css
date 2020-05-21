@@ -6,6 +6,7 @@
 
 body {
     background: #363636;
+    font-family: lemonada;
 }
 
 .top_bar {
@@ -16,9 +17,10 @@ body {
 }
 
 .top_bar p {
-    font-family: lemonada;
-    font-size: 25px;
-    display: inline-block;
+    width: 60vw;
+    font-size: 20px;
+    display: inline;
+    line-height: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -41,8 +43,7 @@ body {
 }
 
 .inner h1 {
-    font-size: 35px;
-    font-family: lemonada;
+    font-size: 25px;
     display: inline-block;
     color: #ffffff;
     position: relative;
@@ -52,7 +53,7 @@ body {
 }
 
 .input_span {
-    padding-top: 10rem;
+    padding-top: 85px;
     position: absolute;
     left: 50%;
     top: 50%;
