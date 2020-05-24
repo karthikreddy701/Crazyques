@@ -62,19 +62,17 @@ body {
   height: 40px;
   border-radius: 10vh;
   padding-left: 3vh;
-  font-size: 42px;
+  font-size: 20px;
 }
 
 .image {
-  width: auto;
-  height: auto;
   position: absolute;
-  right: 86px;
-  top: 1vh;
+  right: 10px;
+  top: 3px;
 }
 .owl {
-  width: 9vw;
-  height: auto;
+  width: 44vw;
+  height: 22vh;
 }
 #left_eye_ball {
   animation: eyes 2s infinite linear;
@@ -86,6 +84,24 @@ body {
   transform-origin: center;
   transform-box: fill-box;
 }
+#left_hand {
+  animation: wingleft 2s infinite ease-in-out;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+#right_hand {
+  animation: wingright 2s infinite ease-in-out;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+#buttom_body,
+#ears,
+#face {
+  animation: body 2s infinite ease-in-out;
+}
+#legs {
+  animation: body 2s infinite ease-in-out;
+}
 @keyframes eyes {
   from {
     transform: rotateZ(0deg);
@@ -94,11 +110,36 @@ body {
     transform: rotateZ(360deg);
   }
 }
-@keyframes wings {
-  from {
-    transform: translateY(0deg);
+@keyframes wingleft {
+  0% {
+    transform: rotateZ(30deg);
   }
-  to {
-    transform: translateY(20deg);
+  50% {
+    transform: rotateZ(130deg);
+  }
+  100% {
+    transform: rotateZ(30deg);
+  }
+}
+@keyframes wingright {
+  0% {
+    transform: rotateZ(-30deg);
+  }
+  50% {
+    transform: rotateZ(-130deg);
+  }
+  100% {
+    transform: rotateZ(-30deg);
+  }
+}
+@keyframes body {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(1%);
+  }
+  100% {
+    transform: translateY(0%);
   }
 }
