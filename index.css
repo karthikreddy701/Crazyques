@@ -69,10 +69,36 @@ body {
   width: auto;
   height: auto;
   position: absolute;
-  right: 0px;
-  top: 20vh;
+  right: 86px;
+  top: 1vh;
 }
 .owl {
-  width: 11vw;
+  width: 9vw;
   height: auto;
+}
+#left_eye_ball {
+  animation: eyes 2s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#right_eye_ball {
+  animation: eyes 2s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+@keyframes eyes {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes wings {
+  from {
+    transform: translateY(0deg);
+  }
+  to {
+    transform: translateY(20deg);
+  }
 }
