@@ -61,8 +61,21 @@ body {
   width: 80vw;
   height: 40px;
   border-radius: 10vh;
-  padding-left: 3vh;
+  padding-left: 4vh;
   font-size: 20px;
+}
+.enter_botton {
+  width: 130px;
+  height: 30px;
+  border-radius: 999px;
+  background-color: lightblue;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 
 .image {
